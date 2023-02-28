@@ -1,0 +1,310 @@
+h1,
+h2 {
+  font-family: "Nunito", sans-serif, sans-serif;
+}
+
+p,
+a {
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here */
+
+:root {
+  /* COLOR SCHEME */
+  --background: #ffffff;
+  --background-dark: #1d1c1c;
+  --card: #f6f2ef;
+  --accent-magenta: #ff5678;
+  --accent-green: #149770;
+  --text-primary: #1d1c1c;
+  --text-secondary: #787878;
+  --text-reversed: #ffffff;
+
+  /* webpage margins
+  webpage-margin: 0 120px;
+
+  /* Coffe beans containers width and height*/
+  --beans-container-width: 293px;
+}
+/*Navigation element for both webpages*/
+nav {
+  margin: 20px 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 207.1px;
+  height: 18.02px;
+}
+.about-nav,
+.selection-nav {
+  margin-right: 30px;
+  color: var(--text-primary);
+  font-style: normal;
+  font-weight: 500;
+}
+.links-rightnav :nth-child(3) {
+  background-color: var(--accent-magenta);
+  color: var(--text-reversed);
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  width: 120px;
+  width: auto;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 15px;
+  letter-spacing: 3px;
+}
+
+/*Banner element for index.html*/
+.banner-element {
+  margin: 0 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0 80px 0;
+}
+.left-container {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: first flex-start;
+  justify-content: flex-end;
+}
+h1 {
+  color: var(--text-primary);
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 88px;
+  line-height: 100px;
+  align-items: flex-start;
+}
+.subtitle-leftbanner {
+  color: var(--text-primary);
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+  margin-bottom: 40px;
+  margin-top: 16px;
+}
+.input-button-leftbanner {
+  display: flex;
+  justify-content: flex-start;
+}
+.search-bar {
+  background-color: var(--card);
+  color: var(--text-secondary);
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  width: 376px;
+  height: 16px;
+  padding: 16px 0 16px 24px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  flex: none;
+  flex-grow: 0;
+}
+#arrow {
+  background: var(--accent-magenta);
+  color: var(--background);
+  border-radius: 50%;
+  font-size: 24px;
+  font-family: "Nunito Sans", sans-serif;
+  width: 64px;
+  border: none;
+  padding: 5px 15px;
+  margin-left: 16px;
+}
+.right-container {
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+
+  max-height: 80%;
+  flex: 0 1 auto;
+}
+.illustration {
+  max-width: 679.66px;
+}
+
+/*about-section for index.html*/
+.about-section {
+  height: 441px;
+  border-top: 2px solid var(--background-dark);
+  border-bottom: 2px solid var(--background-dark);
+  width: auto;
+  margin: 0 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.h2-aboutsection {
+  color: var(--text-primary);
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65px;
+  padding-bottom: 24px;
+}
+.text-elements {
+  color: var(--text-primary);
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 900px;
+  height: 192px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/*special-offer-section for index.html*/
+.special-offer {
+  margin: 0 120px;
+  padding-top: 80px;
+  padding-bottom: 24px;
+}
+.h2-specialoffer {
+  color: var(--text-primary);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65px;
+  margin-bottom: 24px;
+}
+.special-offer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.special-offer-container {
+  background-color: var(--card);
+  width: 373px;
+  height: 411px;
+  padding: 10px;
+  margin-bottom: 3px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.coffee-beans-img {
+  width: var(--beans-container-width);
+  height: 200px;
+  border-radius: 16px;
+}
+.name-of-beans {
+  color: var(--text-primary);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.special-offer-button {
+  background-color: var(--accent-magenta);
+  color: var(--text-reversed);
+  font-size: 16px;
+  font-family: "Nunito", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  width: 157px;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 15px;
+  letter-spacing: 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*footer for both webpages*/
+footer {
+  max-width: auto;
+  height: 200px;
+  background-color: var(--background-dark);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer :nth-child(1) {
+  color: var(--text-reversed);
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+.git,
+.twitter,
+.facebook {
+  width: 32px;
+  height: 31.81px;
+  margin: 15px 12px;
+}
+
+@media screen and (max-width: 834px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+  }
+  nav {
+    margin: 20px 40px;
+  }
+  .banner-element {
+    margin: 0 40px;
+  }
+  .illustration {
+    width: 264.53px;
+    height: 212.27px;
+  }
+  .about-section {
+    margin: 0 40px;
+  }
+  .special-offer {
+    margin: 0 40px;
+  }
+  .special-offer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

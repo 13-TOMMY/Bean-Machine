@@ -1,0 +1,140 @@
+
+/* Selection element*/
+.selection {
+  margin: 20px 10%;
+}
+.selection-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.h2-selection {
+  color: var(--text-primary);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65px;
+}
+.buttons-selection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sort-p {
+  color: var(--text-primary);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-right: 24px;
+}
+.sort {
+  background-color: var(--card);
+  border-radius: 24px;
+  width: 160px;
+  height: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.price {
+  color: var(--text-primary);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 3px;
+}
+.arrow {
+  color: var(--text-primary);
+  transform: rotate(90deg);
+  width: 24px;
+  height: 16px;
+}
+/*available beans*/
+
+.bean-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.bean-containers {
+  background-color: var(--card);
+  width: 373px;
+  height: 411px;
+  padding: 10px;
+  margin: 0px 20px 40px 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.available-tag {
+  background-color: var(--accent-green);
+  color: var(--text-reversed);
+  position: absolute;
+  transform: translate(138px, -180px);
+
+  width: 117px;
+  height: 40px;
+  border-radius: 16px 0 0 16px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coffee-beans-selection {
+  width: var(--beans-container-width);
+  height: 200px;
+  border-radius: 16px;
+}
+.name-of-beans-selection {
+  width: var(--beans-container-width);
+  color: var(--text-primary);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.orign {
+  width: var(--beans-container-width);
+  color: var(--text-primary);
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 32px;
+}
+.buy-button {
+  background-color: var(--accent-magenta);
+  color: var(--text-reversed);
+  font-size: 16px;
+  font-family: "Nunito", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  width: 157px;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 15px;
+  letter-spacing: 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
